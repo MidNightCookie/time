@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Exercises</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Hi+Melody|Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+
+
+
+    <style>
+        * {
+            background-color: #E5EECC;
+        }
+
+        .container {
+            max-width: 1140px;
+            padding: 251px;
+        }
+    </style>
+
+</head>
+<body>
+<button></button>
+<div class="container">
+    <h1 id="mainHead">Yo We Coded UP!</h1>
+    <br>
+    <br>
+    <div>
+        <div class="blackLine"></div>
+
+        <!--=================                    flip pannels                            -->
+        <div class="flip"> <h2>Id Selectors</h2></div>
+        <div class="panel">
+            <ul class="list">
+                <li class="codeUp">Create content in your HTML file using at least the following elements: h1, p, ul, li, div.</li>
+                <li class="codeUp">Add several attributes to your elements; you will need both id and class attributes.</li>
+                <li class="codeUp">Use jQuery to select an element by the id. Alert the contents of the element.</li>
+                <li class="codeUp">Update the jQuery code to select and alert a different id.</li>
+                <li class="codeUp">Use the same id on 2 elements. How does this change the jQuery selection</li>
+                <li class="codeUp"r>Remove the duplicate id. Each id should be uniq</li>
+            </ul>
+        </div>
+
+        <!--->
+
+
+        <div class="blackLine"></div>
+
+
+        <div class="flip"><h2 id="gotClass">Class Selectors</h2></div>
+        <div class="panel">
+            <ul class="list">
+                <li class="codeUp">Create content in your HTML file using at least the following elements: h1, p, ul, li, div.</li>
+                <li class="codeUp">Add several attributes to your elements; you will need both id and class attributes.</li>
+                <li class="codeUp">Use jQuery to select an element by the id. Alert the contents of the element.</li>
+                <li class="codeUp">Update the jQuery code to select and alert a different id.</li>
+                <li class="codeUp">Use the same id on 2 elements. How does this change the jQuery selection</li>
+                <li class="codeUp"r>Remove the duplicate id. Each id should be uniq</li>
+            </ul>
+        </div>
+
+        <!--->
+        <div class="blackLine">
+        </div>
+
+        <h2 id="playInRain">Element Selectors</h2>
+        <p>
+            Remove your custom jQuery code from previous exercises.
+            Using jQuery, set the font-size of all li elements to 20px.
+            Craft selectors that highlight all the h1, p, and li elements.
+            Create a jQuery statement to alert the contents of your h1 element(s).
+        </p>
+        <div class="blackLine"></div>
+        <h2 id="">Multiple Selectors</h2>
+        <p>
+            Combine your selectors that highlight all the h1, p, and li elements.
+        </p>
+
+    </div>
+</div>
+
+
+<script src="js/jQuery-v2.2.4.js"></script>
+
+<script>
+    'use strict';
+
+    //==========
+    var whatText = $('#what').text();
+    if(whatText.includes('z')) {
+        $('what').text('no zebras found');
+
+    }
+    alert(whatText);
+    //------------   old
+    // $(document).ready(function(){
+    //     alert('Bye! Thanks for the DOM loading!')
+    // });
+    //---------
+
+    $('.codeUp').css({
+        'border-style': 'solid',
+        'border-color': 'red 1 px'
+
+    });
+
+    $('.blackLine').css({
+        'border-style': 'solid',
+        'border-color': 'red',
+        'background-color': 'red'
+    });
+
+    $('p').css({
+        'font-size': '55px',
+        'font-family': 'Pacifico'
+
+    });
+
+
+
+    $('h1').css({
+        'font-size': '150px',
+        'font-family': 'Lobster',
+        'background-color': 'white',
+        'text-align': 'center'
+
+
+    });
+    $('h2').css({
+        'font-size': '75px',
+        'font-family': 'Lobster',
+        'background-color': 'white',
+        'text-align': 'center',
+        'border-style':'solid',
+        'border-color': 'grey'
+
+    });
+
+    $('li').css({
+        'font-size': '20px',
+        'text-align': 'center',
+        'font-family': 'Pacifico'
+
+    });
+
+    $('container').css({
+
+        'max-width': '1140px',
+        'padding': '251px',
+        'text-align': 'center'
+
+    });
+
+    $('h1').on('click', function() {
+        $(this).css('background-color', 'pink');
+    } );
+
+
+
+    // drop down
+
+</script>
+</body>
+</html>

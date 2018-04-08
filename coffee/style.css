@@ -1,6 +1,11 @@
 * {
 	padding: 5px 10px;
-	background-color: ;
+	/*background-color: wheat;*/
+}
+h1 {
+	text-shadow: grey;
+	text-align: center;
+	font-family: 'Lobster', cursive;
 }
 h2 {
 	font-family: 'Pacifico', cursive;
@@ -8,6 +13,7 @@ h2 {
 }
 h3 {
 	text-decoration: underline;
+	font-family: 'Hi Melody', cursive;
 
 }
 
