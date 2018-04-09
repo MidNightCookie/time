@@ -30,8 +30,8 @@
       <br>
 
   <h2 id="Quest1">Question 1:</h2>
-      <div class="draw">
-          <p id="Q1" >?</p>
+          <!--<p>?</p>-->
+      <div id="Q1">
           <button class="team1" type="submit">team1</button>
           <button class="team2" type="submit">team2</button>
           <button class="team3" type="submit">team3</button>
@@ -39,16 +39,17 @@
       <br>
   ​
   <h2 id="Quest2">Question 2:</h2>
-      <div class="draw">
-          <p id="Q2" >?</p>
+          <!--<p>?</p>-->
+      <div  id="Q2">
       <button class="team1" type="submit">team1</button>
       <button class="team2" type="submit">team2</button>
       <button class="team3" type="submit">team3</button>
       </div>
       <br>
+
   <h2 id="Quest3">Question 3:</h2>
-      <div class="draw">
-          <p id="Q3">?</p>
+          <!--<p>?</p>-->
+      <div id="Q3">
           <button class="team1" type="submit">team1</button>
           <button class="team2" type="submit">team2</button>
           <button class="team3" type="submit">team3</button>
@@ -56,8 +57,8 @@
       <br>
   ​
   <h2>Question 4:</h2>
-      <div class="draw">
-          <p id="Q4">?</p>
+          <!--<p>?</p>-->
+      <div id="Q4">
           <button class="team1" type="submit">team1</button>
           <button class="team2" type="submit">team2</button>
           <button class="team3" type="submit">team3</button>
@@ -65,8 +66,8 @@
       <br>
   ​
   <h2>Question 5:</h2>
-      <div class="draw">
-          <p id="Q5">?</p>
+          <p>?</p>
+      <div id="Q5">
           <button class="team1" type="submit">team1</button>
           <button class="team2" type="submit">team2</button>
           <button class="team3" type="submit">team3</button>
@@ -401,7 +402,13 @@
       {card: ''},
       {card: ''}
   ];
-/////===============================      SCORING
+
+      var MemeDeck = function () {
+          var shuffleMeme = WhatDoYouMEME[Math.floor(Math.random() * 107)];
+          return shuffleMeme;
+      };
+      // console.log(MemeDeck());
+      /////===============================      SCORING
   // Question1
       team1.score++;
       team2.score++;
@@ -525,5 +532,6 @@
 
   </script>
 
-  </body>
+
+    </body>
 </html>
