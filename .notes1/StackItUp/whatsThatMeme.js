@@ -1,0 +1,132 @@
+'use strict';
+
+//------------------    WHAT DO YOU MEMÊ        ----------------
+var WhatDoYouMEME = [
+    {card: 'When someone says they love running'},
+    {card: 'When your STD test comes back positive'},
+    {card: 'When some says they\'re more of a car person than a dog person'},
+    {card: 'When you Google the lyrics and realize you\'ve been singing nonsense this whole time'},
+    {card: 'When it\'s winter so you don\'t have to shave your legs anymore'},
+    {card: 'When you spell a word so wrong that even spell check can\'t figure out what the fuck you\'re trying to say'},
+    {card: 'When you get a notification but it\'s from Team SnapChat'},
+    {card: 'When you see all your friends prancing around in their bikinis but you can\'t participate because tacos are life'},
+    {card: 'When you rap the whole verse correctly'},
+    {card: 'When you can\'t stop laughing during a fucked up situation'},
+    {card: 'When your crush says they\'re stuck at the office but their Snapchat is full of adventures'},
+    {card: 'Wyou you wake up half-naked on the bathroom floor'},
+    {card: 'When you find out the person you\'re dating has 3 kidss'},
+    {card: 'When someone congratulates you on being pregnant but you\'re not pregnant'},
+    {card: 'When you find your keys after 25 minutes'},
+    {card: 'When you come to terms with the fact that you\'ll never be able to dunk a basketball'},
+    {card: 'When  you hit the last lap in Mario Kart and the music speeds up'},
+    {card: 'When someone asks if you voted for Donald  Trump'},
+    {card: 'When your friend who lies about everything starts telling a story'},
+    {card: 'When you open a birthday card and no money falls out'},
+    {card: 'When you come back from vacation and your guinea pig is dead'},
+    {card: 'When you get a blocked call'},
+    {card: 'When  you hear a song and pretend to be in the music video'},
+    {card: 'When you realize Guy Fieri makes millions of dollars a year eating food'},
+    {card: 'When you say bye to someone then both walk in the same direction'},
+    {card: 'When the flight attendant wakes you up from your coma to offer you a bag of stale peanuts'},
+    {card: 'When you gotta pay taxes but all school taught you is how to calculate the circumferance of a parallelogram'},
+    {card: 'When you try a risky new fashion trend and everyone loves it'},
+    {card: 'When you try a risky new fashion trend and everyone hates it'},
+    {card: 'When everyone at lunch is talking about what they got for Christmas but you\'re Jewish'},
+    {card: 'When you fart in public and its super loud'},
+    {card: 'When you fart in public and its quite but smells like death'},
+    {card: 'When you fart and a little turd comes out'},
+    {card: 'When you hit snooze 22 times and now  have 3 minutes to leave the housee'},
+    {card: 'When you get to work on Monday morning and you remember its a holiday'},
+    {card: 'When your food sounds like WW2 in the microwave but comes out cold'},
+    {card: 'When you\'re drunk and hungry'},
+    {card: 'When you stub your toe'},
+    {card: 'When you hit your funny bone'},
+    {card: 'When you see someone pour milk in their bowl before the cereal'},
+    {card: 'When someone says check out their mixTape'},
+    {card: 'When someone says that they don\'t watch Rick and Morty '},
+    {card: 'When you find out that girls poop'},
+    {card: 'When you eat all the pizza rolls and remember the good times when you still had pizza rolls'},
+    {card: 'When you find out he still lives with  his parents'},
+    {card: 'When someone tells you that you look tired'},
+    {card: 'When you get lost on faceBook for the past hour'},
+    {card: 'When you get lost on youTube for the past hour'},
+    {card: 'When you get lost on snapChat for the past hour'},
+    {card: 'When you get lost on instagram for the past hour'},
+    {card: 'When you get lost on google for the past hour'},
+    {card: 'When he said he\'d text you after work but that was a year ago'},
+    {card: 'When you\'re watching a movie with your parents and there\'s a sex scene'},
+    {card: 'When they say Fifty Shades of Grey is their favorite book'},
+    {card: 'When your\'re watching Chopped and the chef decides to make a vinaigrette with less than a minute left'},
+    {card: 'When it\'s the first day of Spring Break and you get your period'},
+    {card: 'When the shrooms finally dick in'},
+    {card: 'When you hear someone talking shit about the former U.S. Vice President Joe Biden'},
+    {card: 'When your president tries to grab you by the pussy'},
+    {card: 'When you match with your therapist on Tinder'},
+    {card: 'When your vibrator runs out of battery right before you finish'},
+    {card: 'When someone walks in on you jerking off'},
+    {card: 'when you remember what you looked like in the 6th grade'},
+    {card: 'When you think he\'s gonna propose but he\'s just tying his shoe'},
+    {card: 'When all four of your boyfriends are at the same bar'},
+    {card: 'When all four of your girlfriends are at the same bar'},
+    {card: 'That face you make while people sing happy birthday'},
+    {card: 'When you hear your mom bragging about you to her book club'},
+    {card: 'When the dentist asks you a question while their hands are in your mouth'},
+    {card: 'When you\'re giving a presentation and someone says "Speak Up"'},
+    {card: 'When you sit down after somebody and the seat is warm'},
+    {card: 'When you step on a Lego'},
+    {card: 'When you step in dog shit'},
+    {card: 'When you get gum in your hair'},
+    {card: 'When your math teacher talks about hypotenuse but your hear High On Potenuse'},
+    {card: 'When your wife gives birth to an Asian baby but neither of you are Asian'},
+    {card: 'When your mom adds you on Snapchat'},
+    {card: 'When you introduce 2 of your friends and they strt hanging out without you'},
+    {card: 'When you find out that bees are dying at an alarming rate'},
+    {card: 'When someone says goblal warming isn\'t a thing'},
+    {card: 'When you realize that the tab'},
+    {card: 'When your crush text you cute things like "Who\'s this?" and "How\'d you get my number?"'},
+    {card: 'When'},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''},
+    {card: ''}
+];
+
+
+var MemeDeck = function () {
+    var shuffleMeme = WhatDoYouMEME[Math.floor(Math.random() * 107)];
+    // return shuffleMeme;
+};
+// $('.questions').html(MemeDeck().card);
+// console.log(MemeDeck());
+$('#memeTheGame').hide();
+
+// ----     IF YOU WANT IT TO WORK THEN STOP HIDING  LOL     ---------
+
+// var pickCard = Deck[Math.floor(Math.random() * Deck.length)];
+
+// var Deck = function () {
+//     var shuffleDeck = normalPlayingCards[Math.floor(Math.random() * 52)];
+//     return shuffleDeck;
+// };
+// $('.questions').html(Deck().card);
